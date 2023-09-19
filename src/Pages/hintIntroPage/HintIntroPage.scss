@@ -1,0 +1,27 @@
+.hint-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  max-width: 720px;
+  margin: auto;
+
+  &__title {
+    text-align: left;
+    max-width: 800px;
+    font-size: 28px;
+  }
+
+  &__desc {
+    font-size: 21px;
+    color: #505051;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-transform: unset;
+    margin: 0;
+    text-align: left;
+  }
+}

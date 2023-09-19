@@ -1,0 +1,35 @@
+.button {
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  height: 60px;
+  cursor: pointer;
+  transition: all linear 300ms;
+
+  &__disabled {
+    background-color: #C7C7C7;
+  }
+
+  &__enabled {
+    background-color: #066fde;
+
+    &:hover {
+      background-color: #0764c9;
+    }
+  }
+
+  &__title {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .button {
+    max-width: 300px;
+  }
+}

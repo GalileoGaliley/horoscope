@@ -1,0 +1,13 @@
+.dont-know-time-of-birth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+
+  &__title {
+    text-align: center;
+    max-width: 800px;
+    font-size: 28px;
+  }
+}

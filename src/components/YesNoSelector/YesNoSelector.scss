@@ -1,0 +1,10 @@
+.yes-no-selector {
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+    width: 420px;
+  }
+}

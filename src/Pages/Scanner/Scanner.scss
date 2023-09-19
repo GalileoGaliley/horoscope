@@ -1,0 +1,56 @@
+.scanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  width: 800px;
+  margin: auto;
+
+  &__title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+  }
+
+  &__image {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__loader-container {
+    height: 48px;
+    width: 100%;
+    max-width: 400px;
+    font-family: SF Pro Text,sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.0024em;
+    background: #DEE5F9;
+    border-radius: 8px;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__progress-number {
+    color: #fff;
+    z-index: 0;
+    position: relative;
+  }
+
+  &__progress {
+    transition: all 300ms linear;
+    background-color: #066fde;
+    border-radius: 8px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 48px;
+  }
+}

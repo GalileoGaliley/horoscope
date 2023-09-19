@@ -1,0 +1,63 @@
+.set-your-time-of-birth {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+  width: 400px;
+  margin: auto;
+
+  &__time-container {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__time-item {
+    width: 60px;
+    height: 65px;
+    border-radius: 8px;
+    background-color: #f0f0ff;
+    color: #121620;
+    cursor: pointer;
+    transition: all linear 300ms;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    &:nth-child(1) {
+      margin-right: 5px;
+    }
+
+    &_active {
+      background-color: #066fde;
+      color: #ffffff;
+    }
+  }
+
+  .custom-input {
+    &__input {
+      width: 95%;
+    }
+  }
+
+  &__title {
+    font-size: 28px;
+  }
+
+  &__input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+    width: 420px;
+  }
+}

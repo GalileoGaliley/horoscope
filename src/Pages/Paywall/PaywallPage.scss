@@ -1,0 +1,149 @@
+.paywall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+
+  &__present-trial {
+    height: 76px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #066fde;
+  }
+
+  h4 {
+    font-size: 21px;
+    font-weight: 400;
+    max-width: 760px;
+    width: 100%;
+    line-height: 1.35;
+    color: #505051;
+  }
+
+  &__presentation-container {
+    max-width: 760px;
+    width: 100%;
+
+    border: 1px solid #eff2fd;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  &__presentation {
+    background-color: #eff2fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__presentation-title {
+    font-size: 18px;
+    color: #121620;
+  }
+
+  &__description {
+    max-width: 760px;
+  }
+
+  &__description-list {
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &__description-title {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: #121620;
+  }
+
+  &__featured-title {
+    font-size: 21px;
+    color: #505051;
+    font-weight: 400;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-transform: unset;
+    margin: 0;
+  }
+
+  &__featured-image {
+    width: 100%;
+  }
+
+  &__button {
+    position: sticky;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__footer {
+    height: 300px;
+  }
+
+  &__featured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__line {
+    margin: 15px 0;
+    border-top: 1px solid #e7e7e8;
+  }
+
+  &__description-item {
+    display: flex;
+    width: 50%;
+    gap: 15px;
+
+    flex-direction: row;
+  }
+
+  &__presentation-desc {
+    color: #121620;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+  }
+
+  &__presentation-time-title {
+    color: #121620;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+  }
+
+  &__present-trial-title {
+    color: #fff;
+    font-size: 27px;
+    line-height: 1.35;
+    max-width: 800px;
+    font-weight: 500;
+    width: 100%;
+
+  }
+
+  &__header {
+    display: flex;
+    width: 780px;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 70px;
+    align-items: center;
+  }
+
+  &__header-email {
+    font-size: 18px;
+
+  }
+}

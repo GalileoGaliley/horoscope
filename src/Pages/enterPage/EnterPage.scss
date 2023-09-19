@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Alata';
+  src: url('../../assets/fonts/alata/Alata-Regular.ttf');
+}
+
+.enter-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcfbfe;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__image-container {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__gif {
+    width: 50%;
+    height: 50%;
+  }
+
+  &__title {
+    font-family: Alata, serif;
+    font-size: 28px;
+  }
+
+  &__rich-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 21px;
+    color: #505051;
+  }
+
+  &__text {
+    text-align: center;
+    width: 80%;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.35;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,21 @@
+.date-of-birth {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+  width: 400px;
+  margin: auto;
+
+  &__title {
+    font-size: 28px;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+    width: 420px;
+  }
+}

@@ -1,0 +1,28 @@
+.tile-item {
+  &__container {
+    width: 195px;
+    height: 162px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 3px solid #eaeaeb;
+    cursor: pointer;
+    transition: all 300ms linear;
+
+    &:hover {
+      background-color: #fafcfe;
+      border: 3px solid #9cc6f2;
+    }
+  }
+
+  &_active {
+    border: 3px solid #6fabec;
+    background-color: #f2f8fc;
+  }
+
+  &__title {
+    margin-top: 10px;
+  }
+}

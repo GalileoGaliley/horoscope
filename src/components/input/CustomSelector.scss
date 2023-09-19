@@ -1,0 +1,114 @@
+.custom-selector {
+  --primary: #066fde;
+  --secondary: #066fde;
+  --black: #000;
+  --off-black: #0a0908;
+  --dark-grey: #505051;
+  --grey: #bababb;
+  --light-grey: #eaeaeb;
+  --off-white: #fafafb;
+  --white: #fff;
+  --green: #30ab66;
+  --blue: #2b50aa;
+  --red: #d0011b;
+  -webkit-text-size-adjust: 100%;
+  color: #121620;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1;
+  -webkit-box-direction: normal;
+  visibility: visible;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  margin-bottom: 12px;
+  position: relative;
+  font-family: SF Pro Text,sans-serif;
+
+  &__selector {
+    --primary: #066fde;
+    --secondary: #066fde;
+    --black: #000;
+    --off-black: #0a0908;
+    --dark-grey: #505051;
+    --grey: #bababb;
+    --light-grey: #eaeaeb;
+    --off-white: #fafafb;
+    --white: #fff;
+    --green: #30ab66;
+    --blue: #2b50aa;
+    --red: #d0011b;
+    -webkit-text-size-adjust: 100%;
+    -webkit-box-direction: normal;
+    visibility: visible;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    width: 100%;
+    color: #121620;
+    margin: 0;
+    appearance: none;
+    background: #fafafb;
+    //font-family: Open Sans;
+    border: 1px solid #eaeaeb;
+    border-radius: 5px;
+    box-shadow: none;
+    min-height: 60px;
+    margin-left: 1px;
+    font-weight: 600;
+    padding: 29px 15px 12px 10px;
+    font-size: 17px;
+    line-height: 1.3;
+  }
+
+  &__active {
+    color: #505051 !important;
+    font-size: 1em !important;
+    line-height: 1.8rem !important;
+    transform: translateY(0) !important;
+    top: 4px !important;
+    font-weight: normal !important;
+  }
+
+  &__hidden {
+    color: transparent;
+  }
+
+  &__title {
+    --primary: #066fde;
+    --secondary: #066fde;
+    --black: #000;
+    --off-black: #0a0908;
+    --dark-grey: #505051;
+    --grey: #bababb;
+    --light-grey: #eaeaeb;
+    --off-white: #fafafb;
+    --white: #fff;
+    --green: #30ab66;
+    --blue: #2b50aa;
+    --red: #d0011b;
+    -webkit-text-size-adjust: 100%;
+    -webkit-box-direction: normal;
+    visibility: visible;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    border: 0;
+    -webkit-font-smoothing: antialiased;
+    padding: 0;
+    font-family: Alata;
+    letter-spacing: normal;
+    text-transform: unset;
+    margin: 0;
+    color: #bababb;
+    position: absolute;
+    top: 10px;
+    left: calc(.75rem + 1px);
+    font-size: 14.4px;
+    line-height: 1.6rem;
+    transform: translateY(calc(.75rem - 1px));
+    transition: all .2s ease;
+    pointer-events: none;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,77 @@
+.city-of-birth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  width: 800px;
+  margin: auto;
+
+  &__input-container {
+    margin: 30px 0;
+    position: relative;
+  }
+
+  &__popup {
+    color: #121620;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1;
+    -webkit-box-direction: normal;
+    visibility: visible;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    margin: 0;
+    border: 0;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 5px;
+    box-shadow: 0px 0px 1px rgba(21, 34, 66, 0.2), 0px 14px 32px rgba(21, 34, 66, 0.12);
+    z-index: 100;
+    display: none;
+
+    &_active {
+      display: block;
+    }
+  }
+
+  &__popup-item {
+    padding: 13px 20px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #fff;
+    transition: all 300ms linear;
+
+    &:hover {
+      background-color: #eeeeee;
+    }
+  }
+
+  .custom-input {
+    &__input {
+      width: 400px;
+    }
+  }
+
+  &__title {
+    text-align: center;
+    max-width: 800px;
+    font-size: 28px;
+  }
+
+  &__desc {
+    font-size: 21px;
+    color: #505051;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-transform: unset;
+    margin: 0;
+  }
+}
