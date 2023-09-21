@@ -5,6 +5,7 @@ import {Communication, Emotions, Intellect, Interest, Love, Sex} from "./present
 import image from './Featured.png';
 import Button from "../../components/Button/Button";
 import {localStorageItems} from "../../utils/constants";
+import {fetchCompability} from "../../services/fetchCompability";
 const PaywallPage = () => {
   const email = 'ThePursuer@mail.ru';
   // @ts-ignore
@@ -66,7 +67,7 @@ const PaywallPage = () => {
   }, [seconds]);
 
   const click = () => {
-    console.log('э');
+    fetchCompability()
   }
 
   return (
